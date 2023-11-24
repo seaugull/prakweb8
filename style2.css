@@ -1,0 +1,33 @@
+body{
+    border: 1px dotted;
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    background-color: bisque;
+    height: 15vh;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    flex: 1;
+}
+
+#main nav,
+
+#main aside{
+    height: 65vh;
+    width: 17vw;
+}
+
+#main nav{
+    background-color: aqua;
+    order: 1;
+}
+
+#main aside{
+    background-color: pink;
+}
